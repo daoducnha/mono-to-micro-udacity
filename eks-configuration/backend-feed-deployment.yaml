@@ -77,6 +77,6 @@ spec:
               readOnly: true
       restartPolicy: Always
       volumes:
-          - name: aws-secret
-            secret:
-              secretName: aws-secret
+        - name: aws-secret
+          secret:
+            secretName: aws-secret
